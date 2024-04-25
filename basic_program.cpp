@@ -8,7 +8,7 @@ int fact(int value){
     }
     return factorial;
 }
-int genFibonacci(int n) {
+int generateFibonacci(int n) {
    int fibo[n+2]; 
    fibo[0] = 0;
    fibo[1] = 1;
