@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int fact(int value){
+int factorialOfNumber(int value){
     int factorial = 1;
     for (int i = 1; i <= value; i++)
     {
@@ -21,6 +21,6 @@ int generateFibonacci(int n) {
 int main(){
     int value;
     cin >> value;
-    cout << fact(value) << endl;
+    cout << factorialOfNumber(value) << endl;
     cout << genFibonacci(value) << endl;
 }
